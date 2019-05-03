@@ -1,7 +1,7 @@
 .blogBackground{
     background: $deepTurq;
 }
-.headerHome {
+.headerBlog {
   background-image: url("./../assets/blogHeader.jpg");
    background-attachment: fixed;
   background-position: center center;
@@ -28,8 +28,8 @@ aside{
     padding-top: 20px;
     background: $frenchBlue;
     margin-left: 30px;
-    padding-left: 50px;
-     box-shadow: 10px 0px 0px 0px $frenchBlue;
+    padding: 0 0 50px 50px;
+     box-shadow:  10px 0px 0px 0px $frenchBlue,;
 }
 main{
     min-width:calc(100%-250px -50px);

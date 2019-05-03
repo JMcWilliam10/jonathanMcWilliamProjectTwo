@@ -14,16 +14,18 @@ $secondaryFont: 'Roboto',  Helvetica, sans-serif;
 // $h4FontSize: 58px;
 // $button: 25.4px;
 
+// Typography desktop
 $h1FontSize: 9vw;
 $h2FontSize: 9vw;
 $h3FontSize: 3vw;
 $h4FontSize: 2.5vw;
 $h5FontSize: 2.5vw;
-$h6FontSize: 2.5vw;
+$h6FontSize: 2vw;
 $button: 25.4px;
 $p: 1.6vw;
 $navFont: 2vw;
 
+// Typography mobile
 
 $brightAqua: #08fded;
 $frenchBlue: #474bb5;
@@ -31,7 +33,7 @@ $darkishBlue: #044779;
 $paleGrey: #f3faff;
 $deepTurq: #03697c;
 
-h1,h2,h3,h4,h5{
+h1,h2,h3,h4,h5,h6{
     font-family: $primaryFont;
     color: $paleGrey
 }
@@ -58,6 +60,8 @@ h5{
 }
 h6{
     font-size: $h6FontSize;
+    color: $paleGrey;
+    display: inline;
 }
 p{
     font-family: $secondaryFont;

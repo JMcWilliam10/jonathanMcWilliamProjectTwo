@@ -19,8 +19,13 @@ background: $deepTurq;
     background: $deepTurq;
     border: 0;
     border: 1px solid $brightAqua;
+    margin: 10px;
 }
 input[type=submit]{
     width: 100%;
       padding: 15px;
+      margin: 10px;
+      background: $brightAqua;
+      font-family: $primaryFont;
+      color: $frenchBlue;
 }

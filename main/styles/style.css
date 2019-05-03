@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Walter Turncoat", Helvetica, sans-serif;
   color: #f3faff;
 }
@@ -221,7 +221,9 @@ h5 {
 }
 
 h6 {
-  font-size: 2.5vw;
+  font-size: 2vw;
+  color: #f3faff;
+  display: inline;
 }
 
 p {
@@ -319,7 +321,7 @@ a:after {
   width: 70%;
 }
 
-a:hover:after {
+nav a:hover:after {
   display: inline-block;
 }
 
@@ -368,7 +370,6 @@ h1 {
 .generalInfo {
   background: #03697c;
   padding: 300px 0 100px;
-  margin: 0 10px;
 }
 
 .generalInfo p {
@@ -516,7 +517,7 @@ footer {
   background: #03697c;
 }
 
-.headerHome {
+.headerBlog {
   background-image: url("./../assets/blogHeader.jpg");
   background-attachment: fixed;
   background-position: center center;
@@ -547,7 +548,7 @@ aside {
   padding-top: 20px;
   background: #474bb5;
   margin-left: 30px;
-  padding-left: 50px;
+  padding: 0 0 50px 50px;
   -webkit-box-shadow: 10px 0px 0px 0px #474bb5;
           box-shadow: 10px 0px 0px 0px #474bb5;
 }
@@ -587,8 +588,25 @@ main {
           box-shadow: 10px 10px 0px 0px #474bb5;
 }
 
-.comment img {
-  max-width: 100px;
+.avatarParent {
+  width: 10%;
+}
+
+.comment h6 {
+  padding-left: 20px;
+  width: 90%;
+}
+
+.comment p {
+  width: 100%;
+}
+
+.commentFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 form {
@@ -616,14 +634,22 @@ form {
   background: #03697c;
   border: 0;
   border: 1px solid #08fded;
+  margin: 10px;
 }
 
 input[type=submit] {
   width: 100%;
   padding: 15px;
+  margin: 10px;
+  background: #08fded;
+  font-family: "Walter Turncoat", Helvetica, sans-serif;
+  color: #474bb5;
 }
 
 @media (min-width: 1px) and (max-width: 800px) {
+  html {
+    font-size: 200%;
+  }
   nav {
     padding: 20px 0;
   }
