@@ -1,3 +1,26 @@
-input[type='email']{
-
+form{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.formName, 
+.formEmail{
+width: calc(50% - 20px);
+  height: 50px;
+  padding: 15px;
+  border: 0;
+  margin: 10px;
+  border-bottom: 1px solid $brightAqua;
+background: $deepTurq;
+}
+.formComment{
+    width: 100%;
+    height: 250px;
+    background: $deepTurq;
+    border: 0;
+    border: 1px solid $brightAqua;
+}
+input[type=submit]{
+    width: 100%;
+      padding: 15px;
 }
