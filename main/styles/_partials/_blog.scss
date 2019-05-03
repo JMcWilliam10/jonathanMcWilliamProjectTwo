@@ -1,0 +1,60 @@
+.blogBackground{
+    background: $deepTurq;
+}
+.headerHome {
+  background-image: url("./../assets/blogHeader.jpg");
+   background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+.bubbles{
+    width: 100%;
+    max-width: 100%;
+    margin-top: -100px;
+    position: absolute;
+    top: 0;
+    right: -10px;
+    box-shadow: -11px 10px 0px 0px rgba(8,253,237,1);
+}
+aside{
+    margin-top: 50px;
+    min-width: 250px;
+    width: 30%;
+    z-index: 2;
+}
+.asideText{
+    padding-top: 20px;
+    background: $frenchBlue;
+    margin-left: 30px;
+    padding-left: 50px;
+     box-shadow: 10px 0px 0px 0px $frenchBlue;
+}
+main{
+    min-width:calc(100%-250px -50px);
+    width: 65.1%;
+    background: $deepTurq;
+    margin-left: 50px;
+}
+.newActivities{
+    padding-top: 60%;
+    border-left: 1px solid $brightAqua;
+    border-bottom: 1px solid $brightAqua;
+    position: relative;
+}
+.newActivitiesWrapper{
+    margin: 0 auto;
+    width: 80%;
+    max-width: 80%;
+    
+}
+.blogContainerFlex{
+    display: flex;
+}
+.chalkImage{
+  position: relative;
+}
+.chalkImage img{
+        box-shadow: 10px 10px 0px 0px $frenchBlue;
+}

@@ -1,0 +1,21 @@
+.generalInfo{
+    background: $deepTurq;
+    padding: 300px 0 100px;
+    margin: 0 10px;
+}
+.generalInfo p{
+    margin-left: 50px;
+}
+.generalInfoFlex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.iconFlex{
+    display: flex;
+}
+.generalInfoFlexItem{
+    width: 50%;
+}
+i{
+    background: $brightAqua;
+}

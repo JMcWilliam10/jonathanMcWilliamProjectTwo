@@ -1,0 +1,13 @@
+.gallery{
+    padding: 60px 0;
+    background: $frenchBlue
+}
+.flexGallery{
+    display: flex;
+}
+.galleryItem{
+    width: 33.3%;
+}
+.galleryItem:nth-child(2){
+    margin: 0 50px;
+}
