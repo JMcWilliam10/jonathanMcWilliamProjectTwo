@@ -19,6 +19,7 @@ $h2FontSize: 9vw;
 $h3FontSize: 3vw;
 $h4FontSize: 2.5vw;
 $h5FontSize: 2.5vw;
+$h6FontSize: 2.5vw;
 $button: 25.4px;
 $p: 1.6vw;
 $navFont: 2vw;
@@ -43,7 +44,6 @@ h1{
 h2{
     font-size: $h2FontSize;
     color: $paleGrey;
-    align-self: center;
 
 }
 h3{
@@ -55,6 +55,9 @@ h4{
 }
 h5{
     font-size: $h5FontSize;
+}
+h6{
+    font-size: $h6FontSize;
 }
 p{
     font-family: $secondaryFont;
