@@ -5,12 +5,13 @@ ul {
   display: flex;
   padding: 0;
 }
-li {
+nav li {
   list-style-type: none;
+  margin: 0 20px;
 }
 
-a {
-  padding: 20px;
+nav a {
+  padding: 10px;
   font-size: $navFont;
   position: relative;
 }
@@ -18,11 +19,11 @@ a:after {
   content: "";
   height: 6px;
   background-color: $brightAqua;
-  bottom: -10px;
-  left: 25px;
+  bottom: -3px;
+  left: 12px;
   display: none;
   position: absolute;
-  width: 70%;
+  width: 60%;
 }
 nav a:hover:after {
   display: inline-block;

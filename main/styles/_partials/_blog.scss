@@ -3,10 +3,11 @@
 }
 .headerBlog {
   background-image: url("./../assets/blogHeader.jpg");
-   background-attachment: fixed;
-  background-position: center center;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
+  
   position: relative;
 }
 .bubbles{
@@ -18,20 +19,21 @@
     right: -10px;
     box-shadow: -11px 10px 0px 0px rgba(8,253,237,1);
 }
-aside{
+.b aside{
     margin-top: 50px;
     min-width: 250px;
     width: 30%;
     z-index: 2;
 }
 .asideText{
+    margin-top: 10px;
     padding-top: 20px;
     background: $frenchBlue;
     margin-left: 30px;
     padding: 0 0 50px 50px;
      box-shadow:  10px 0px 0px 0px $frenchBlue,;
 }
-main{
+.b main{
     min-width:calc(100%-250px -50px);
     width: 65.1%;
     background: $deepTurq;
@@ -47,7 +49,6 @@ main{
     margin: 0 auto;
     width: 80%;
     max-width: 80%;
-    
 }
 .blogContainerFlex{
     display: flex;
@@ -57,4 +58,8 @@ main{
 }
 .chalkImage img{
         box-shadow: 10px 10px 0px 0px $frenchBlue;
+}
+.blogTitle{
+    text-align: center;
+    padding-top: 30vh;
 }

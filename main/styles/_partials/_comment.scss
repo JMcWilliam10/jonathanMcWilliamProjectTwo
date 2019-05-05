@@ -1,17 +1,14 @@
-.comment img{
-    // max-width: 100px;
+.avatarParent {
+  width: 10%;
 }
-.avatarParent{
-    width: 10%;
+.comment h6 {
+  padding-left: 20px;
+  width: 90%;
 }
-.comment h6{
-    padding-left: 20px;
-    width: 90%;
+.comment p {
+  width: 100%;
 }
-.comment p{
-    width: 100%;
-}
-.commentFlex{
-    display: flex;
-    flex-wrap: wrap;
+.commentFlex {
+  display: flex;
+  flex-wrap: wrap;
 }

@@ -1,21 +1,45 @@
-.generalInfo{
-    background: $deepTurq;
-    padding: 300px 0 100px;
-    // margin: 0 10px;
+.generalInfo {
+  background: $deepTurq;
+  padding: 300px 0 100px;
+  // margin: 0 10px;
 }
-.generalInfo p{
-    margin-left: 50px;
+.generalInfo p {
+  margin-left: 54px;
 }
-.generalInfoFlex{
-    display: flex;
-    flex-wrap: wrap;
+.generalInfoFlex {
+  display: flex;
+  flex-wrap: wrap;
 }
-.iconFlex{
-    display: flex;
+.iconFlex {
+  display: flex;
 }
-.generalInfoFlexItem{
-    width: 50%;
+.generalInfoFlexItem {
+  width: 50%;
 }
-i{
-    background: $brightAqua;
+// .generalInfo svg{
+//     background: $brightAqua;
+//     border-radius: 500px;
+//     font-size: 50px;
+//     padding: 10px;
+// }
+// i{
+//     position: relative;
+// }
+// i:before {
+//   content: "";
+//   font-size: 50px;
+//   height: 6px;
+//   border-radius: 50px;
+//   background-color: $brightAqua;
+//   bottom: -3px;
+//   left: 12px;
+//   position: absolute;
+//   width: 60%;
+// }
+.circle {
+  background: $brightAqua;
+  border-radius: 500px;
+  font-size: 20px;
+  padding: 10px;
+  margin-right: 10px;
 }

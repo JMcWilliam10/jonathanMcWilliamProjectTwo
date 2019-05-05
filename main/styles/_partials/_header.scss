@@ -1,36 +1,32 @@
-
-a{
-    color: white;
-    text-decoration: none;
-    padding: 0 20px;
+a {
+  color: white;
+  text-decoration: none;
+  padding: 0 20px;
 }
 .headerHome {
   background-image: url("./../assets/homeHeader.jpg");
-   background-attachment: fixed;
+  background-attachment: fixed;
   background-position: center center;
   background-size: 100% cover;
   height: 800px;
   position: relative;
 }
-.skateboard{
-    width: 50%;
-    max-width: 700px;
-    margin-bottom: -100px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+.skateboard {
+  width: 50%;
+  max-width: 700px;
+  margin-bottom: -100px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
-.titleFlex{
-    position: relative;
-    height: 800px;
+.titleFlex {
+  position: relative;
+  height: 800px;
 }
-.title{
-    display: flex;
-
+.title {
+  display: flex;
 }
-    h1{
-        color: $paleGrey;
-        align-self: center;
-    }
-
-
+h1 {
+  color: $paleGrey;
+  align-self: center;
+}

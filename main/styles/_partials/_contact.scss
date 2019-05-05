@@ -1,0 +1,62 @@
+.headerContact {
+  background-image: url("./../assets/contactHeader.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  position: relative;
+}
+  .blogTitle{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+  }
+.c form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.c h2{
+    margin: 12vh 0 0 12vw;
+}
+.formName,
+.formEmail {
+  width: calc(50% - 20px);
+  height: 50px;
+  padding: 15px;
+  border: 0;
+  margin: 10px;
+  border-bottom: 1px solid $brightAqua;
+  background: $deepTurq;
+}
+.formCommentContact {
+  width: 100%;
+  height: 250px;
+  background: $deepTurq;
+  border: 0;
+  border: 1px solid $brightAqua;
+}
+.contactSubmit {
+  width: 100%;
+  padding: 15px;
+  background: $brightAqua;
+  font-family: $primaryFont;
+  color: $frenchBlue;
+}
+.contactMain {
+     width: 60%;
+    margin: -110px 0 0 0;
+    z-index: 1;
+
+}
+.contactAside{
+    background: blue;
+}
+.contactSocialFlex {
+  display: flex;
+  flex-direction: column;
+}
+.contactFlexWrap {
+  display: flex;
+}
