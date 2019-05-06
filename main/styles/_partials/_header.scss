@@ -3,25 +3,28 @@ a {
   text-decoration: none;
   padding: 0 20px;
 }
+.h h1 {
+  margin-top: 22vh;
+}
 .headerHome {
   background-image: url("./../assets/homeHeader.jpg");
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: 100% cover;
-  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
   position: relative;
 }
 .skateboard {
   width: 50%;
   max-width: 700px;
-  margin-bottom: -100px;
+  margin-bottom: -140px;
   position: absolute;
   bottom: 0;
   right: 0;
 }
 .titleFlex {
   position: relative;
-  height: 800px;
+  height: 70vh;
 }
 .title {
   display: flex;

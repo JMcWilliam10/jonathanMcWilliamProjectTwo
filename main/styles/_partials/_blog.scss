@@ -1,65 +1,61 @@
-.blogBackground{
-    background: $deepTurq;
-}
-.headerBlog {
-  background-image: url("./../assets/blogHeader.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 800px;
-  
-  position: relative;
-}
-.bubbles{
-    width: 100%;
-    max-width: 100%;
-    margin-top: -100px;
-    position: absolute;
-    top: 0;
-    right: -10px;
-    box-shadow: -11px 10px 0px 0px rgba(8,253,237,1);
-}
-.b aside{
-    margin-top: 50px;
-    min-width: 250px;
-    width: 30%;
-    z-index: 2;
-}
-.asideText{
-    margin-top: 10px;
-    padding-top: 20px;
-    background: $frenchBlue;
-    margin-left: 30px;
-    padding: 0 0 50px 50px;
-     box-shadow:  10px 0px 0px 0px $frenchBlue,;
-}
-.b main{
-    min-width:calc(100%-250px -50px);
-    width: 65.1%;
-    background: $deepTurq;
-    margin-left: 50px;
-}
-.newActivities{
-    padding-top: 60%;
-    border-left: 1px solid $brightAqua;
-    border-bottom: 1px solid $brightAqua;
-    position: relative;
-}
-.newActivitiesWrapper{
-    margin: 0 auto;
-    width: 80%;
-    max-width: 80%;
-}
-.blogContainerFlex{
-    display: flex;
-}
-.chalkImage{
-  position: relative;
-}
-.chalkImage img{
-        box-shadow: 10px 10px 0px 0px $frenchBlue;
-}
-.blogTitle{
-    text-align: center;
-    padding-top: 30vh;
-}
+// .blogBackground {
+//   background: $deepTurq;
+// }
+// .headerBlog {
+//   background-image: url("./../assets/blogHeader.jpg");
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   height: 800px;
+
+//   position: relative;
+// }
+// .bubbles {
+//   width: 100%;
+//   max-width: 100%;
+//   margin-top: -100px;
+//   position: absolute;
+//   top: 0;
+//   right: -10px;
+//   box-shadow: -11px 10px 0px 0px rgba(8, 253, 237, 1);
+// }
+// .b aside {
+//   margin-top: 50px;
+//   min-width: 250px;
+//   width: 30%;
+//   z-index: 2;
+// }
+// .asideText {
+//   margin-top: 10px;
+//   padding-top: 20px;
+//   background: $frenchBlue;
+//   margin-left: 30px;
+//   padding: 0 0 50px 50px;
+//   box-shadow: 10px 0px 0px 0px $frenchBlue;
+// }
+// .b main {
+//   min-width: calc(100%-250px -50px);
+//   width: 65.1%;
+//   background: $deepTurq;
+//   margin-left: 50px;
+// }
+// .newActivities {
+//   padding-top: 60%;
+//   border-left: 1px solid $brightAqua;
+//   border-bottom: 1px solid $brightAqua;
+//   position: relative;
+// }
+// .newActivitiesWrapper {
+//   margin: 0 auto;
+//   width: 80%;
+//   max-width: 80%;
+// }
+// .blogContainerFlex {
+//   display: flex;
+// }
+// .chalkImage {
+//   position: relative;
+// }
+// .chalkImage img {
+//   box-shadow: 10px 10px 0px 0px $frenchBlue;
+// }

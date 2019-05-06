@@ -4,7 +4,7 @@
   // margin: 0 10px;
 }
 .generalInfo p {
-  margin-left: 54px;
+  margin-left: 62px;
 }
 .generalInfoFlex {
   display: flex;
@@ -16,30 +16,35 @@
 .generalInfoFlexItem {
   width: 50%;
 }
-// .generalInfo svg{
-//     background: $brightAqua;
-//     border-radius: 500px;
-//     font-size: 50px;
-//     padding: 10px;
-// }
-// i{
-//     position: relative;
-// }
-// i:before {
-//   content: "";
-//   font-size: 50px;
-//   height: 6px;
-//   border-radius: 50px;
-//   background-color: $brightAqua;
-//   bottom: -3px;
-//   left: 12px;
-//   position: absolute;
-//   width: 60%;
-// }
 .circle {
-  background: $brightAqua;
-  border-radius: 500px;
-  font-size: 20px;
-  padding: 10px;
+  // background: $brightAqua;
+  // border-radius: 500px;
+  // font-size: 20px;
+  font-size: 50px;
   margin-right: 10px;
+  position: relative;
+  color: $brightAqua;
+  text-align: center;
+}
+.icon {
+  position: absolute;
+  top: 12px;
+  color: $frenchBlue;
+  font-size: 30px;
+}
+
+.icon1 {
+  right: 8px;
+}
+
+.icon2 {
+  right: 7px;
+}
+
+.icon3 {
+  right: 14px;
+}
+
+.icon4 {
+  right: 10px;
 }

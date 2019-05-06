@@ -3,60 +3,89 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70vh;
+  height: 550px;
   position: relative;
 }
-  .blogTitle{
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-  }
+.blogTitle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.c {
+  background-color: $deepTurq;
+}
 .c form {
   display: flex;
   flex-wrap: wrap;
 }
-.c h2{
-    margin: 12vh 0 0 12vw;
+.c h1 {
+  margin: 0 10vw 30vh;
 }
-.formName,
-.formEmail {
+.c .formName,
+.c .formEmail {
   width: calc(50% - 20px);
   height: 50px;
   padding: 15px;
   border: 0;
-  margin: 10px;
-  border-bottom: 1px solid $brightAqua;
-  background: $deepTurq;
+  margin: 10px 0;
+  border-bottom: 2px solid $paleGrey;
+  background: $frenchBlue;
 }
-.formCommentContact {
+.c .formName {
+  margin: 10px 40px 10px 0;
+}
+.c .formCommentContact {
   width: 100%;
   height: 250px;
-  background: $deepTurq;
+  background: $frenchBlue;
   border: 0;
-  border: 1px solid $brightAqua;
+  border: 2px solid $paleGrey;
+  position: relative;
+  padding: 20px 0 200px 15px;
 }
-.contactSubmit {
+.c .formCommentContact::placeholder,
+.c .formName::placeholder,
+.c .formEmail::placeholder {
+  padding-left: 10px;
+  color: $paleGrey;
+}
+.c .contactSubmit {
   width: 100%;
   padding: 15px;
+  margin-top: 40px;
   background: $brightAqua;
   font-family: $primaryFont;
   color: $frenchBlue;
 }
-.contactMain {
-     width: 60%;
-    margin: -110px 0 0 0;
-    z-index: 1;
-
+.c .contactMain {
+  width: 60%;
+  margin: -110px 0 0 0;
+  z-index: 1;
+  background: $frenchBlue;
+  padding: 40px;
+  box-shadow: 20px 20px 0px 0px rgba(8, 253, 237, 1);
 }
-.contactAside{
-    background: blue;
+.c .contactAside {
+  // background: blue;
 }
-.contactSocialFlex {
+.c .contactSocialFlex {
   display: flex;
   flex-direction: column;
 }
-.contactFlexWrap {
+.c .contactFlexWrap {
   display: flex;
+}
+.c footer {
+  margin-top: 130px;
+}
+.c .socialNav {
+  padding: 0 0 20px 0;
+}
+.c .socialNav li {
+  margin: 0;
+}
+.c .contactNav {
+  padding: 70px 0 0 4vw;
 }

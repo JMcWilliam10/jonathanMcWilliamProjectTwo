@@ -1,32 +1,31 @@
-html{
-    font-size: 125%;
+html {
+  font-size: 125%;
 }
-@import '_partials/reset';
-@import '_partials/normalize';
+@import "_partials/reset";
+@import "_partials/normalize";
 
-
-@import '_partials/typography';
-@import '_partials/buttons';
-@import '_partials/wrappers';
-@import '_partials/global';
+@import "_partials/typography";
+@import "_partials/buttons";
+@import "_partials/wrappers";
+@import "_partials/global";
 
 // // FunPlace
-@import './_partials/nav';
-@import './_partials/header';
-@import './_partials/generalInfo';
-@import './_partials/ourProgramsAndNewLocations';
-@import './_partials/roadTrips.scss';
-@import './_partials/splash.scss';
-@import './_partials/events';
-@import './_partials/gallery';
-@import './_partials/copyright';
+@import "./_partials/nav";
+@import "./_partials/header";
+@import "./_partials/generalInfo";
+@import "./_partials/ourProgramsAndNewLocations";
+@import "./_partials/roadTrips.scss";
+@import "./_partials/splash.scss";
+@import "./_partials/events";
+@import "./_partials/gallery";
+@import "./_partials/copyright";
 // Get in Touch
-@import './_partials/contact.scss';
+@import "./_partials/contact.scss";
 
 // Blog
-@import './_partials/blog';
-@import './_partials/comment';
-@import './_partials/form';
+@import "./_partials/blogPage";
+@import "./_partials/comment";
+@import "./_partials/form";
 
 // Queries
-@import './_partials/mediaQueries';
+@import "./_partials/mediaQueries";

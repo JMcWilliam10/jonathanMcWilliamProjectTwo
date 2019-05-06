@@ -4,12 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"
+      integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ"
+      crossorigin="anonymous"
+    ></script>
     <title>Contact</title>
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body class="c">
     <header class="headerContact">
-      <nav>
+      <nav class="contactNav">
         <ul class="flexNav">
           <li><a href="./index.html">Home</a></li>
           <li><a href="./index.html#about">About</a></li>
@@ -18,17 +24,39 @@
         </ul>
       </nav>
       <div class="title titleFlex">
-        <h2 class="titleFlexItem">Get in Touch</h2>
+        <h1 class="titleFlexItem">Get in Touch</h1>
       </div>
     </header>
     <div class="contactFlexWrap">
       <aside class="contactAside">
         <nav>
           <ul class="contactSocialFlex">
-            <li><a href="">icon</a></li>
-            <li><a href="">icon</a></li>
-            <li><a href="">icon</a></li>
-            <li><a href="">icon</a></li>
+            <li>
+              <nav class="socialNav">
+                <ul>
+                  <li>
+                    <a href="https://www.facebook.com">
+                      <i title="Facebook icon" class="fab fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com">
+                      <i title="Instagram icon" class="fab fa-instagram"> </i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://www.twitter.com">
+                      <i title="Twitter icon" class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.whatsapp.com">
+                      <i title="Whatsapp icon" class="fab fa-whatsapp"></i
+                    ></a>
+                  </li>
+                </ul>
+              </nav>
+            </li>
             <li>info@email.com</li>
             <li>123 - 456 - 7890</li>
             <li>123 Queen Street West, Unit 10</li>
@@ -45,7 +73,7 @@
             type="text"
             name="name"
             id="name"
-            placeholder="name"
+            placeholder="Name"
           />
 
           <label class="visuallyHidden" for="email">Name</label>
@@ -54,7 +82,7 @@
             type="email"
             name="email"
             id="email"
-            placeholder="email"
+            placeholder="Email address"
           />
 
           <label class="visuallyHidden" for="comment">Name</label>
@@ -62,7 +90,7 @@
             type="text"
             name="comment"
             id="comment"
-            placeholder="comment"
+            placeholder="Message"
             class="formCommentContact"
           />
           <input class="contactSubmit" type="submit" value="Post Comment" />

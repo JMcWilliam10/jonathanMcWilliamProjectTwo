@@ -1,6 +1,6 @@
 .ourProgramsAndNewLocations {
   margin-top: 12px;
-  padding: 13% 0;
+  padding: 11% 0;
   background: $frenchBlue;
   display: flex;
   position: relative;
@@ -14,7 +14,8 @@
   bottom: 0;
   left: 0;
   width: 40%;
-  padding: 0 0 2% 10%;
+  margin: 0 0 2% 0;
+  padding-left: 4%;
   text-align: right;
 }
 .ourPrograms {
@@ -22,7 +23,8 @@
   top: 0;
   right: 0;
   width: 40%;
-  padding: 2% 10% 0 0;
+  padding-right: 4%;
+  margin: 2% 0 0 0;
 }
 .firstImage {
   position: absolute;
@@ -35,5 +37,5 @@
   position: absolute;
   bottom: -50px;
   right: 0;
-  box-shadow: -10px -10px 0px 0px rgba(8, 253, 237, 1);
+  box-shadow: -10px 10px 0px 0px rgba(8, 253, 237, 1);
 }
