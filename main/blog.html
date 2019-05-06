@@ -15,17 +15,15 @@
   </head>
   <body class="blog b">
     <header class="headerBlog">
-      <nav>
+      <nav class="mainNav">
         <ul class="flexNav">
           <li><a href="./index.html">Home</a></li>
           <li><a href="./index.html#about">About</a></li>
-          <li><a href="./blog.html">Blog</a></li>
+          <li><a class="active" href="./blog.html">Blog</a></li>
           <li><a href="./contact.html">Contact</a></li>
         </ul>
       </nav>
-      <div class="title titleFlex">
-        <h1 class="blogTitle">Blog</h1>
-      </div>
+      <h1 class="blogTitle">Blog</h1>
     </header>
     <div class="blogContainerFlex blogBackground">
       <aside>
@@ -44,10 +42,10 @@
             </p>
             <h5>Recent Posts</h5>
             <ul>
-              <li>Donec facilisis tortor ut</li>
-              <li>Augue lacuna at viverra</li>
-              <li>Semper sed sapine mets</li>
-              <li>Scelerisque nec pharetra id</li>
+              <li class="recent">Donec facilisis tortor ut</li>
+              <li class="recent">Augue lacuna at viverra</li>
+              <li class="recent">Semper sed sapine mets</li>
+              <li class="recent">Scelerisque nec pharetra id</li>
             </ul>
           </div>
         </div>
@@ -104,13 +102,15 @@
                   alt="photo of an individuals avatar"
                 />
               </div>
-              <h6>Tuesday October 9th, 2019 by Mariama</h6>
-              <p>
-                Fusce vehicle dolor arc, sit amen blanket dolor mollie nec.
-                Donec viverra eleifend locus, vitae ullamcorper mets. Sed
-                Sollicitudin ipsum quis nunc sollicitude ultrices. Donec euismod
-                Scelerisque liqula. Maecenas eu varius risus…
-              </p>
+              <div class="blogComment">
+                <h6>Tuesday October 9th, 2019 by Mariama</h6>
+                <p>
+                  Fusce vehicle dolor arc, sit amen blanket dolor mollie nec.
+                  Donec viverra eleifend locus, vitae ullamcorper mets. Sed
+                  Sollicitudin ipsum quis nunc sollicitude ultrices. Donec
+                  euismod Scelerisque liqula. Maecenas eu varius risus…
+                </p>
+              </div>
             </div>
             <div class="comment commentFlex">
               <div class="avatarParent">
@@ -119,12 +119,14 @@
                   alt="photo of an individuals avatar"
                 />
               </div>
-              <h6>Wednesday October 10th, 2019 by Rob</h6>
-              <p>
-                Donner viverra eleifend Lachs, vitae ullamcorper Mets. Sed
-                Sollicitudin ipsum quis nunc sollicitundin ultrices. Donec
-                euismod scelerisque ligua.
-              </p>
+              <div class="blogComment">
+                <h6>Wednesday October 10th, 2019 by Rob</h6>
+                <p>
+                  Donner viverra eleifend Lachs, vitae ullamcorper Mets. Sed
+                  Sollicitudin ipsum quis nunc sollicitundin ultrices. Donec
+                  euismod scelerisque ligua.
+                </p>
+              </div>
             </div>
           </div>
         </section>

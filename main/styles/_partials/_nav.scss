@@ -15,7 +15,7 @@ nav a {
   font-size: $navFont;
   position: relative;
 }
-a:after {
+nav a::after {
   content: "";
   height: 6px;
   background-color: $brightAqua;
@@ -25,10 +25,56 @@ a:after {
   position: absolute;
   width: 60%;
 }
+nav .active::after {
+  content: "";
+  height: 6px;
+  background-color: $brightAqua;
+  bottom: -3px;
+  left: 12px;
+  position: absolute;
+  width: 60%;
+}
 nav a:hover:after {
   display: inline-block;
 }
-// li a:hover {
-//   background: $darkishBlue;
-//   border-radius: 40px;
-// }
+
+.mainNav {
+  padding: 30px 0 0 10vw;
+
+  ul {
+    display: flex;
+    padding: 0;
+  }
+  li {
+    list-style-type: none;
+    margin: 0 10px;
+  }
+
+  a {
+    padding: 10px;
+    font-size: $navFont;
+    position: relative;
+  }
+  a::after {
+    content: "";
+    height: 6px;
+    background-color: $brightAqua;
+    bottom: -3px;
+    left: 12px;
+    display: none;
+    position: absolute;
+    width: 60%;
+  }
+  .active::after {
+    content: "";
+    height: 6px;
+    background-color: $brightAqua;
+    bottom: -3px;
+    left: 12px;
+    position: absolute;
+    width: 60%;
+  }
+  a:hover:after {
+    display: inline-block;
+  }
+}

@@ -1,3 +1,6 @@
+.b {
+  background: $deepTurq;
+}
 .blogBackground {
   background: $deepTurq;
 }
@@ -22,39 +25,42 @@
   margin-top: 50px;
   min-width: 250px;
   width: 33.9%;
+
   z-index: 2;
 }
 .b aside
 // This method class was found at https://www.w3.org/Style/Examples/007/color-bullets.en.html
 // In order to change the list style type to be a different color than the content of what is inside the list
-.b .asideText li::before {
+.asideText li::before {
   content: "•";
   color: $brightAqua;
   display: inline-block;
   width: 30px;
   height: 30px;
+  z-index: 100;
 }
 
 .b .asideText {
   margin-top: 10px;
   padding-top: 20px;
   background: $frenchBlue;
-  margin-left: 30px;
-  padding: 0 0 50px 50px;
-  box-shadow: 10px 0px 0px 0px $frenchBlue;
+
+  margin-left: 105px;
+  margin-top: 0px;
+  padding: 30px 0 50px 50px;
+  box-shadow: 30px 0px 0px 0px $frenchBlue;
 }
 .b main {
   min-width: calc(100%-250px -50px);
   width: 65.1%;
   background: $deepTurq;
-  margin-left: 50px;
+  margin-left: 100px;
+  margin-bottom: 100px;
 }
 .b p {
   font-size: 21px;
 }
-.b h1 {
-  padding: 0 0 0 13vw;
-}
+
 .newActivities {
   padding-top: 60%;
   border-left: 6px solid $brightAqua;
@@ -73,5 +79,19 @@
   position: relative;
 }
 .chalkImage img {
-  box-shadow: 10px 10px 0px 0px $frenchBlue;
+  box-shadow: 30px 0px 0px 0px $frenchBlue;
+}
+.chalkImage::after {
+  content: "";
+  height: 30px;
+  background-color: $deepTurq;
+  top: 0px;
+  right: -30px;
+  position: absolute;
+  width: 30px;
+}
+.blogComment {
+  margin-top: -7px;
+  padding-left: 20px;
+  width: 90%;
 }

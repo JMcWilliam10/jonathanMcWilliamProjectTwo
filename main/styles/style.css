@@ -267,8 +267,16 @@ h4 {
 }
 
 h1 {
+  font-size: 7.5vw;
+}
+
+.h h1 {
   margin-top: 22vh;
-  font-size: 8vw;
+}
+
+.b h1 {
+  margin: 10vh 10vh 0 0;
+  padding: 0 0 0 12vw;
 }
 
 h2 {
@@ -360,7 +368,7 @@ nav a {
   position: relative;
 }
 
-a:after {
+nav a::after {
   content: "";
   height: 6px;
   background-color: #08fded;
@@ -371,7 +379,64 @@ a:after {
   width: 60%;
 }
 
+nav .active::after {
+  content: "";
+  height: 6px;
+  background-color: #08fded;
+  bottom: -3px;
+  left: 12px;
+  position: absolute;
+  width: 60%;
+}
+
 nav a:hover:after {
+  display: inline-block;
+}
+
+.mainNav {
+  padding: 30px 0 0 10vw;
+}
+
+.mainNav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+.mainNav li {
+  list-style-type: none;
+  margin: 0 10px;
+}
+
+.mainNav a {
+  padding: 10px;
+  font-size: 2vw;
+  position: relative;
+}
+
+.mainNav a::after {
+  content: "";
+  height: 6px;
+  background-color: #08fded;
+  bottom: -3px;
+  left: 12px;
+  display: none;
+  position: absolute;
+  width: 60%;
+}
+
+.mainNav .active::after {
+  content: "";
+  height: 6px;
+  background-color: #08fded;
+  bottom: -3px;
+  left: 12px;
+  position: absolute;
+  width: 60%;
+}
+
+.mainNav a:hover:after {
   display: inline-block;
 }
 
@@ -383,6 +448,7 @@ a {
 
 .h h1 {
   margin-top: 22vh;
+  margin-left: 8vw;
 }
 
 .headerHome {
@@ -423,7 +489,7 @@ h1 {
 
 .generalInfo {
   background: #03697c;
-  padding: 300px 0 100px;
+  padding: 200px 0 100px;
 }
 
 .generalInfo p {
@@ -561,14 +627,14 @@ h1 {
 .twoChildren {
   -webkit-box-shadow: -20px 20px 0px 0px #08fded;
           box-shadow: -20px 20px 0px 0px #08fded;
-  min-width: 200px;
+  min-width: 300px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
 }
 
 .gallery {
-  padding: 60px 0;
+  padding: 80px 0;
   background: #474bb5;
 }
 
@@ -584,6 +650,12 @@ h1 {
 
 .galleryItem:nth-child(2) {
   margin: 0 50px;
+}
+
+.galleryWrapper {
+  width: 83%;
+  max-width: 83%;
+  margin: 0 auto;
 }
 
 footer {
@@ -632,7 +704,7 @@ footer {
   height: 50px;
   padding: 15px;
   border: 0;
-  margin: 10px 0;
+  margin: 10px 0 40px;
   border-bottom: 2px solid #f3faff;
   background: #474bb5;
 }
@@ -681,11 +753,12 @@ footer {
 
 .c .contactSubmit {
   width: 100%;
-  padding: 15px;
+  padding: 8px;
   margin-top: 40px;
   background: #08fded;
   font-family: "Walter Turncoat", Helvetica, sans-serif;
   color: #474bb5;
+  border: none;
 }
 
 .c .contactMain {
@@ -696,6 +769,10 @@ footer {
   padding: 40px;
   -webkit-box-shadow: 20px 20px 0px 0px #08fded;
           box-shadow: 20px 20px 0px 0px #08fded;
+}
+
+.c .contactAside {
+  margin: 100px 50px 0 -50px;
 }
 
 .c .contactSocialFlex {
@@ -714,6 +791,10 @@ footer {
   display: flex;
 }
 
+.email {
+  margin-bottom: 40px;
+}
+
 .c footer {
   margin-top: 130px;
 }
@@ -726,8 +807,8 @@ footer {
   margin: 0;
 }
 
-.c .contactNav {
-  padding: 70px 0 0 4vw;
+.b {
+  background: #03697c;
 }
 
 .blogBackground {
@@ -762,37 +843,36 @@ footer {
 }
 
 .b aside
-.b .asideText li::before {
+.asideText li::before {
   content: "•";
   color: #08fded;
   display: inline-block;
   width: 30px;
   height: 30px;
+  z-index: 100;
 }
 
 .b .asideText {
   margin-top: 10px;
   padding-top: 20px;
   background: #474bb5;
-  margin-left: 30px;
-  padding: 0 0 50px 50px;
-  -webkit-box-shadow: 10px 0px 0px 0px #474bb5;
-          box-shadow: 10px 0px 0px 0px #474bb5;
+  margin-left: 105px;
+  margin-top: 0px;
+  padding: 30px 0 50px 50px;
+  -webkit-box-shadow: 30px 0px 0px 0px #474bb5;
+          box-shadow: 30px 0px 0px 0px #474bb5;
 }
 
 .b main {
   min-width: calc(100%-250px -50px);
   width: 65.1%;
   background: #03697c;
-  margin-left: 50px;
+  margin-left: 100px;
+  margin-bottom: 100px;
 }
 
 .b p {
   font-size: 21px;
-}
-
-.b h1 {
-  padding: 0 0 0 13vw;
 }
 
 .newActivities {
@@ -819,8 +899,24 @@ footer {
 }
 
 .chalkImage img {
-  -webkit-box-shadow: 10px 10px 0px 0px #474bb5;
-          box-shadow: 10px 10px 0px 0px #474bb5;
+  -webkit-box-shadow: 30px 0px 0px 0px #474bb5;
+          box-shadow: 30px 0px 0px 0px #474bb5;
+}
+
+.chalkImage::after {
+  content: "";
+  height: 30px;
+  background-color: #03697c;
+  top: 0px;
+  right: -30px;
+  position: absolute;
+  width: 30px;
+}
+
+.blogComment {
+  margin-top: -7px;
+  padding-left: 20px;
+  width: 90%;
 }
 
 .avatarParent {
@@ -828,7 +924,6 @@ footer {
 }
 
 .comment h6 {
-  padding-left: 20px;
   width: 90%;
 }
 
@@ -842,7 +937,8 @@ footer {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-bottom: 60px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .b .blogForm {
@@ -880,10 +976,11 @@ footer {
 
 .b .blogForm input[type="submit"] {
   width: 100%;
-  padding: 15px;
+  padding: 8px;
   background: #08fded;
   font-family: "Walter Turncoat", Helvetica, sans-serif;
   color: #474bb5;
+  border: none;
 }
 
 .b .formCommentContact {
@@ -954,9 +1051,6 @@ footer {
     width: 90%;
     margin: 0 auto;
   }
-  .c .contactNav {
-    padding: 70px 0 0 4vw;
-  }
 }
 
 @media (max-width: 800px) {
@@ -982,18 +1076,19 @@ footer {
   p {
     font-size: 16px;
   }
-  nav a {
+  .mainNav a {
     font-size: 20px;
   }
-  nav {
+  .mainNav {
     padding: 20px 0;
   }
-  nav li {
+  .mainNav li {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
     text-align: center;
     margin: 0;
+    font-size: 20px;
   }
   .h h1 {
     margin: 0 auto 30vh;
@@ -1090,19 +1185,19 @@ footer {
   .b aside {
     margin-top: 0;
     min-width: 0;
-    width: 71%;
+    width: 100%;
     z-index: 2;
-    margin: 0px auto;
+    margin: 0px auto 100px;
   }
   .b .asideText {
     margin-top: 10px;
     padding-top: 20px;
     background: #474bb5;
     margin-left: 30px;
-    padding: 0 0 50px 50px;
+    padding: 50px 0 30px 50px;
     -webkit-box-shadow: 10px 0px 0px 0px #474bb5;
-    box-shadow: 10px 0px 0px 0px #474bb5;
-    margin: 0 0 112px;
+            box-shadow: 10px 0px 0px 0px #474bb5;
+    margin: 0;
   }
   .b .formName,
   .b .formEmail {
@@ -1116,6 +1211,14 @@ footer {
     position: relative;
     padding-bottom: 23px;
   }
+  .chalkImage img {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .newActivitiesWrapper {
+    width: 100%;
+    max-width: 100%;
+  }
   .newActivities {
     border: none;
   }
@@ -1125,9 +1228,15 @@ footer {
     width: 100%;
     padding: 15px;
   }
+  .c .contactAside {
+    margin: 0;
+  }
   .c .formName,
   .c .formEmail {
     width: 100%;
     margin: 10px 0;
+  }
+  .c footer {
+    margin-top: 0;
   }
 }

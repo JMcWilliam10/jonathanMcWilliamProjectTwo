@@ -15,9 +15,6 @@
     width: 90%;
     margin: 0 auto;
   }
-  .c .contactNav {
-    padding: 70px 0 0 4vw;
-  }
 }
 
 @media (max-width: 800px) {
@@ -46,16 +43,17 @@
     font-size: 16px;
   }
   // Typography end
-  nav a {
+  .mainNav a {
     font-size: 20px;
   }
-  nav {
+  .mainNav {
     padding: 20px 0;
   }
-  nav li {
+  .mainNav li {
     flex: 1;
     text-align: center;
     margin: 0;
+    font-size: 20px;
   }
   .h h1 {
     margin: 0 auto 30vh;
@@ -147,19 +145,18 @@
   .b aside {
     margin-top: 0;
     min-width: 0;
-    width: 71%;
+    width: 100%;
     z-index: 2;
-    margin: 0px auto;
+    margin: 0px auto 100px;
   }
   .b .asideText {
     margin-top: 10px;
     padding-top: 20px;
     background: #474bb5;
     margin-left: 30px;
-    padding: 0 0 50px 50px;
-    -webkit-box-shadow: 10px 0px 0px 0px #474bb5;
+    padding: 50px 0 30px 50px;
     box-shadow: 10px 0px 0px 0px #474bb5;
-    margin: 0 0 112px;
+    margin: 0;
   }
   .b .formName,
   .b .formEmail {
@@ -173,6 +170,13 @@
     position: relative;
     padding-bottom: 23px;
   }
+  .chalkImage img {
+    box-shadow: none;
+  }
+  .newActivitiesWrapper {
+    width: 100%;
+    max-width: 100%;
+  }
   .newActivities {
     border: none;
   }
@@ -181,10 +185,16 @@
     width: 100%;
     padding: 15px;
   }
+  .c .contactAside {
+    margin: 0;
+  }
   .c .formName,
   .c .formEmail {
     width: 100%;
     margin: 10px 0;
+  }
+  .c footer {
+    margin-top: 0;
   }
   //   .blogTitle {
   //     text-align: center;
