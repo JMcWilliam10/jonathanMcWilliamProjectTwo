@@ -1,3 +1,30 @@
+@media (max-width: 1220px) {
+  .ourProgramsAndNewLocations {
+    padding: 12% 0;
+  }
+  .ourPrograms,
+  .newLocation {
+    width: 50%;
+  }
+}
+@media (max-width: 1120px) {
+  .ourProgramsAndNewLocations {
+    padding: 13% 0;
+  }
+}
+@media (max-width: 1000px) {
+  .ourProgramsAndNewLocations {
+    padding: 16% 0;
+  }
+  .newLocation {
+    padding-left: 0;
+  }
+  .ourPrograms,
+  .newLocation {
+    width: 56%;
+  }
+}
+
 @media (max-width: 1000px) {
   .generalInfo {
     padding: 200px 0 80px;
@@ -14,6 +41,9 @@
   .c .contactMain {
     width: 90%;
     margin: 0 auto;
+  }
+  .b .asideText {
+    margin-left: 50px;
   }
 }
 
@@ -42,6 +72,9 @@
   p {
     font-size: 16px;
   }
+  li {
+    font-size: 19px;
+  }
   // Typography end
   .mainNav a {
     font-size: 20px;
@@ -54,6 +87,9 @@
     text-align: center;
     margin: 0;
     font-size: 20px;
+  }
+  nav {
+    padding: 30px 0 0 3vw;
   }
   .h h1 {
     margin: 0 auto 30vh;
@@ -138,6 +174,10 @@
     flex-direction: column;
   }
   // flexgallery end
+  .b h1 {
+    padding-top: 20vh;
+    text-align: center;
+  }
   .b main {
     width: 100%;
     margin-left: 0;
@@ -145,7 +185,7 @@
   .b aside {
     margin-top: 0;
     min-width: 0;
-    width: 100%;
+    width: 81%;
     z-index: 2;
     margin: 0px auto 100px;
   }
@@ -154,8 +194,8 @@
     padding-top: 20px;
     background: #474bb5;
     margin-left: 30px;
-    padding: 50px 0 30px 50px;
-    box-shadow: 10px 0px 0px 0px #474bb5;
+    padding: 0 10px;
+    box-shadow: none;
     margin: 0;
   }
   .b .formName,
@@ -168,14 +208,15 @@
   }
   .chalkImage {
     position: relative;
-    padding-bottom: 23px;
+    padding-bottom: 0;
   }
   .chalkImage img {
     box-shadow: none;
   }
   .newActivitiesWrapper {
-    width: 100%;
-    max-width: 100%;
+    width: 90%;
+    max-width: 90%;
+    margin: 0 auto;
   }
   .newActivities {
     border: none;
@@ -186,7 +227,7 @@
     padding: 15px;
   }
   .c .contactAside {
-    margin: 0;
+    margin: 0 0 50px 0;
   }
   .c .formName,
   .c .formEmail {
@@ -196,9 +237,4 @@
   .c footer {
     margin-top: 0;
   }
-  //   .blogTitle {
-  //     text-align: center;
-  //     padding-top: 30vh;
-  //   }
-  // contact
 }

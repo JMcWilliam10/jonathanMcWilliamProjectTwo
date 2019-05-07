@@ -25,7 +25,6 @@
   margin-top: 50px;
   min-width: 250px;
   width: 33.9%;
-
   z-index: 2;
 }
 .b aside
@@ -47,7 +46,7 @@
 
   margin-left: 105px;
   margin-top: 0px;
-  padding: 30px 0 50px 50px;
+  padding: 30px 0 50px 30px;
   box-shadow: 30px 0px 0px 0px $frenchBlue;
 }
 .b main {
@@ -66,11 +65,13 @@
   border-left: 6px solid $brightAqua;
   border-bottom: 6px solid $brightAqua;
   position: relative;
+  padding-bottom: 70px;
 }
 .newActivitiesWrapper {
   margin: 0 auto;
   width: 80%;
   max-width: 80%;
+  // padding-bottom: 80px;
 }
 .blogContainerFlex {
   display: flex;

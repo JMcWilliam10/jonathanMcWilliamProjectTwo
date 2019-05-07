@@ -1,12 +1,4 @@
-.findOutButton {
-  padding: 10px;
-  background: $brightAqua;
-  text-transform: uppercase;
-  font-family: $primaryFont;
-  text-align: center;
-  line-height: 41.6px;
-  color: $frenchBlue;
-}
+.findOutButton,
 .readMore {
   padding: 10px;
   background: $brightAqua;
@@ -15,4 +7,22 @@
   text-align: center;
   line-height: 41.6px;
   color: $frenchBlue;
+  transition: 0.5s ease;
+}
+// .readMore {
+//   padding: 10px;
+//   background: $brightAqua;
+//   text-transform: uppercase;
+//   font-family: $primaryFont;
+//   text-align: center;
+//   line-height: 41.6px;
+//   color: $frenchBlue;
+// }
+
+.readMore:hover,
+.findOutButton:hover {
+  background: $frenchBlue;
+  color: $brightAqua;
+  padding: 10px 20px;
+  border: 1px solid $paleGrey;
 }
