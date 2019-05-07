@@ -13,13 +13,9 @@ h6 {
 $primaryFont: "Walter Turncoat", Helvetica, sans-serif;
 $secondaryFont: "Roboto", Helvetica, sans-serif;
 
-// $h1FontSize: 145.2px;
-// $h2FontSize: 125.6px;
-// $h3FontSize: 99.8px;
-// $h4FontSize: 58px;
-// $button: 25.4px;
+// Typography desktop //
+// The use of vw for typography was inspired by hearing wes bos talk on the topic on his podcast
 
-// Typography desktop
 $h1FontSize: 7.5vw;
 $h2FontSize: 5vw;
 $h3FontSize: 2.1vw;
@@ -84,7 +80,7 @@ p {
   font-family: $secondaryFont;
   font-size: $p;
   color: $paleGrey;
-  // line-height: 28px;
+  line-height: 28px;
 }
 li {
   font-family: $secondaryFont;

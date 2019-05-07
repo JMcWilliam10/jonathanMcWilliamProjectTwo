@@ -27,11 +27,13 @@
 }
 .b .blogForm input[type="submit"] {
   width: 100%;
-  padding: 8px;
+  padding: 10px;
+  margin-top: 35px;
   background: $brightAqua;
   font-family: $primaryFont;
   color: $frenchBlue;
   border: none;
+  transition: 0.5s ease;
 }
 .b .formCommentContact {
   width: 100%;
@@ -48,10 +50,16 @@
   padding-left: 10px;
   color: $paleGrey;
 }
-.b .contactSubmit {
+.contactSubmit {
   width: 100%;
   padding: 15px;
   background: $brightAqua;
   font-family: $primaryFont;
   color: $frenchBlue;
+  transition: 0.5s ease;
+}
+.contactSubmit:hover {
+  background: $darkishBlue;
+  color: $brightAqua;
+  // padding: 10px 20px;
 }

@@ -24,15 +24,6 @@ nav a::after {
   position: absolute;
   width: 60%;
 }
-nav .active::after {
-  content: "";
-  height: 6px;
-  background-color: $brightAqua;
-  bottom: -3px;
-  left: 12px;
-  position: absolute;
-  width: 60%;
-}
 nav a:hover:after {
   display: inline-block;
 }
