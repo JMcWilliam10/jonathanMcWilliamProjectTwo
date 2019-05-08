@@ -421,7 +421,7 @@ nav a:hover:after {
   height: 6px;
   background-color: #08fded;
   bottom: -3px;
-  left: 12px;
+  left: 20%;
   position: absolute;
   width: 60%;
 }
