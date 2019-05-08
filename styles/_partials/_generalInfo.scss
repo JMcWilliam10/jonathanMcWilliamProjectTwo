@@ -16,6 +16,12 @@
 .generalInfoFlexItem {
   width: 50%;
 }
+.generalInfoFlexItem a {
+  padding: 0;
+}
+.generalInfoFlexItem a:hover {
+  font-style: italic;
+}
 .circle {
   // background: $brightAqua;
   // border-radius: 500px;

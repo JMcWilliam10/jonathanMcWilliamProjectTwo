@@ -504,6 +504,14 @@ h1 {
   width: 50%;
 }
 
+.generalInfoFlexItem a {
+  padding: 0;
+}
+
+.generalInfoFlexItem a:hover {
+  font-style: italic;
+}
+
 .circle {
   font-size: 50px;
   margin-right: 10px;
@@ -853,6 +861,14 @@ footer p {
   padding: 30px 0 50px 30px;
   -webkit-box-shadow: 30px 0px 0px 0px #474bb5;
           box-shadow: 30px 0px 0px 0px #474bb5;
+}
+
+.b .asideText a {
+  padding: 0;
+}
+
+.b .asideText a:hover {
+  color: #08fded;
 }
 
 .b main {
