@@ -8,10 +8,6 @@
   }
 }
 @media (max-width: 1120px) {
-  h3,
-  h5 {
-    font-size: 26px;
-  }
   .ourProgramsAndNewLocations {
     padding: 13% 0;
   }
@@ -30,9 +26,6 @@
 }
 
 @media (max-width: 1000px) {
-  .ourProgramsAndNewLocations {
-    padding: 17% 0;
-  }
   .generalInfo {
     padding: 200px 0 80px;
   }
@@ -105,7 +98,6 @@
     width: 100%;
     max-width: 500px;
   }
-  // ourProgramsAndNewLocations
   .ourProgramsAndNewLocations {
     padding: 0;
     position: initial;
@@ -228,16 +220,9 @@
     max-width: 90%;
     margin: 0 auto;
   }
-  .newActivities::after {
-    display: none;
-  }
   .newActivities {
     border: none;
   }
-  .newActivities::after {
-    display: none;
-  }
-
   .c .contactMain {
     box-shadow: none;
     width: 100%;

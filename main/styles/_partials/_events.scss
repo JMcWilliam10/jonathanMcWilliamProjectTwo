@@ -1,0 +1,16 @@
+.events {
+  padding: 60px 0;
+  background: $deepTurq;
+}
+.eventsText {
+  color: $paleGrey;
+  margin-left: 50px;
+}
+.flexEvents {
+  display: flex;
+}
+.twoChildren {
+  box-shadow: -20px 20px 0px 0px rgba(8, 253, 237, 1);
+  min-width: 300px;
+  align-self: center;
+}
